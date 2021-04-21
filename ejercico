@@ -1,0 +1,36 @@
+public class Atuendo
+  private List <Prenda> prendas
+  
+  
+/*  public void cargarPrendas (Prenda ... Prendas)
+    Collections.addAll(this.prendas, prendas)*/
+    
+  public void cargarPrendas (Prenda prenda)
+    prendas.add(Prenda)
+    
+   public void crearAtuendo
+    prendas.stream().filter(prenda->prenda.esValida()).forEach(prenda -> this.cargarPrenda(prenda))
+    
+public class Prenda 
+  //Asumo que todos son Strings porque no tienen un comportamiento particular por el momento
+	private String tipo
+	private String categoria
+	private String material
+	private String colorPrincipal
+	private String colorSecundario
+  
+  constructor (String tipoPrenda, String categoria, String material, String colorPrincipal)
+		this.tipo = tipoPrenda
+		this.categoria = categoria
+		this.material = material
+		this.colorPrincipal = colorPrincipal
+    
+   void esValida()
+    //No se me ocurrio la implementacion, pero verificaria que el tipo con la categoria sean validos
+  
+ public class Usuario
+  List <Atuendo> atuendos
+  
+  
+   public void crearAtuendo(List<Prenda> prendas)
+    
