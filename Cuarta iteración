@@ -1,0 +1,96 @@
+public class Atuendo{
+  private List <Prenda> prendas
+   
+  
+  public void cargarPrendas (Prenda prenda)
+    prendas.add(Prenda)
+    
+   public void crearAtuendo
+    prendas.stream().filter(prenda->prenda.esValida()).forEach(prenda -> this.cargarPrenda(prenda))
+    
+   public  
+}
+
+public class Usuario
+  List <Atuendo> atuendos
+  private consultorDeClima = //uso la interfaz que detallaron y le paso Bs.As como parámetro.
+  
+  public void consultarClima
+    this.consultorClima.getClima("Bs, As", "Argentina") // revisar
+    
+  
+   public void crearAtuendo(List<Prenda> prendas) 
+
+public class AtuendoSugerido
+  public Prenda parteSuperior = categoria.PARTE_SUPERIOR,
+  public Prenda calzado = categoria.CALZADO,
+  public Prenda parteInferior = categoria.PARTE_INFERIOR,
+  public Prenda accesorios = categoria.ACCESIORIOS
+  
+  constructor(Prenda parteSuperior, Prenda calzado....){
+  //Validar que 
+    this.parteSuperior = parteSuperior
+    this.calzado = calzado
+    //demás atributos
+}
+
+public class Prenda 
+ 
+	private TipoDePrenda tipo
+	private Categoria categoria
+	private Material material
+	private Color colorPrincipal
+	private Color colorSecundario
+  private Trama trama
+  private int temperaturaAdecuada //Validarlo con la categoria
+  
+  constructor (TipoDePrenda tipoPrenda, Categoria categoria, Material material, Color colorPrincipal, Color colorSec){
+    //validaciones
+		this.tipo = tipoPrenda
+		this.categoria = categoria
+		this.material = material
+		this.colorPrincipal = colorPrincipal
+    this.colorSecundario = colorSec
+ }   
+  
+    
+public elem Trama{
+  LISA, RAYADA ...}
+  
+public elem Material{
+  ALGODON, LANA ...}
+  
+public elem Categoria{
+  PARTE_SUPERIOR, CALZADO, PARTE_INFERIOR, ACCESIORIOS}
+  
+public class Color{
+   int nivelRojo,
+   int nivelVerde,
+   int nivelAzul
+    }
+public class Borrador{
+  //atributos ...
+  private Trama trama = LISA
+  
+  constructor(tipoDePrenda){
+    validateNonNull(tipoDePrenda)
+         this.tipoDePrenda = tipoDePrenda
+}
+   public void especificarColorPrincipal(color){
+       validateNonNull(color)
+       this.colorPrincipal = color
+}
+
+    public void especificarMaterial(material){
+       validateNonNull(material) 
+       this.validarMaterialConsistenteConTipoDePrenda(material)
+       this.material = material
+    }
+       
+     public void especificarTrama(trama)
+        this.trama = if trama is null then Trama.LISA else trama 
+  
+    public Prenda crearPrenda{
+    //Validaciones necesarias
+       return new Prenda(tipo, material, colorPrincipal, colorSecundario, trama)}
+}
